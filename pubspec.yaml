@@ -1,6 +1,6 @@
 name: system_date_time_format_hook
-description: A hook for system_date_time_format plugin
-version: 0.1.0
+description: A flutter hook for system_date_time_format plugin
+version: 0.1.1
 repository: https://github.com/Nikoro/system_date_time_format_hook
 issue_tracker: https://github.com/Nikoro/system_date_time_format_hook/issues
 
