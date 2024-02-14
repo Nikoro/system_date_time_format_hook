@@ -1,4 +1,4 @@
-import 'package:mocktail/mocktail.dart';
+part of 'extensions.dart';
 
 extension WhenExtension<T> on When<T> {
   thenAnswerMany(List<Answer<T>> cbs) {

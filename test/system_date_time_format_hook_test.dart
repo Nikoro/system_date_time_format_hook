@@ -3,7 +3,6 @@ import 'dart:ui';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
-import '_tools/extensions/mocktail_extensions.dart';
 import '_tools/tools.dart';
 
 void main() {
