@@ -1,3 +1,7 @@
+## 1.2.0
+
+[CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
+
 ## 1.1.2
 
 - Updated README
