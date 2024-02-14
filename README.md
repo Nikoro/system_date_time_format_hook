@@ -49,10 +49,16 @@ class App extends HookWidget {
     final patterns = useSystemDateTimeFormat();
 
     final datePattern = patterns.datePattern;
+    final mediumDatePattern = patterns.mediumDatePattern;
+    final longDatePattern = patterns.longDatePattern;
+    final fullDatePattern = patterns.fullDatePattern;
     final timePattern = patterns.timePattern;
 
-    print(datePattern); // e.g. "M/d/yy"
-    print(timePattern); // e.g. "HH:mm"
+    print(datePattern);       // e.g. "M/d/yy"
+    print(mediumDatePattern); // e.g. "MMM d,y"
+    print(longDatePattern);   // e.g. "MMMM d,y"
+    print(fullDatePattern);   // e.g. "EEEE, MMMM d, y"
+    print(timePattern);       // e.g. "HH:mm"
 
     return const MaterialApp(
       home: Scaffold(),
