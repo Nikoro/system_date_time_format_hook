@@ -49,9 +49,9 @@ class App extends HookWidget {
     final patterns = useSystemDateTimeFormat();
 
     final datePattern = patterns.datePattern;
-    final mediumDatePattern = patterns.mediumDatePattern;
+    final mediumDatePattern = patterns.mediumDatePattern; // Not on Windows & Linux
     final longDatePattern = patterns.longDatePattern;
-    final fullDatePattern = patterns.fullDatePattern;
+    final fullDatePattern = patterns.fullDatePattern;     // Not on Windows & Linux
     final timePattern = patterns.timePattern;
 
     print(datePattern);       // e.g. "M/d/yy"
