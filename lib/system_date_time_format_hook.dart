@@ -39,9 +39,7 @@ class _SystemDateTimeFormatHookState
   }
 
   @override
-  Patterns build(BuildContext context) {
-    return patterns;
-  }
+  Patterns build(BuildContext context) => patterns;
 
   @override
   Future<void> didChangeAppLifecycleState(AppLifecycleState state) async {
