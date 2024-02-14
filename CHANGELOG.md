@@ -1,3 +1,9 @@
+## 1.1.2
+
+- Updated README
+- Updated dependencies
+- Matched version numbers with [`system_date_time_format`](https://pub.dev/packages/system_date_time_format) plugin
+
 ## 0.1.2
 
 Improved package description
