@@ -2,17 +2,17 @@
   <a href="https://pub.dev/packages/system_date_time_format_hook"><img src="https://raw.githubusercontent.com/nikoro/system_date_time_format_hook/main/logo/logo.png" width="600"/></a>
 </p>
 <h2 align="center">
-  A <a href="https://pub.dev/packages/flutter_hooks">hook</a> for <a href="https://pub.dev/packages/system_date_time_format">system_date_time_format</a> plugin
+  A <a href="https://pub.dev/packages/flutter_hooks" target="_blank">flutter hook</a> for <a href="https://pub.dev/packages/system_date_time_format" target="_blank">system_date_time_format</a> plugin
 </h2>
 
 <p align="center">
   <a href="https://pub.dev/packages/system_date_time_format_hook">
-    <img alt="Pub Package" src="http://tinyurl.com/5cw9f9fm">
+    <img alt="Pub Package" src="https://tinyurl.com/5cw9f9fm">
   </a>
-  <a href="https://github.com/Nikoro/system_date_time_format/actions">
+  <a href="https://github.com/Nikoro/system_date_time_format_hook/actions">
     <img alt="Build Status" src="https://github.com/Nikoro/system_date_time_format_hook/actions/workflows/build.yaml/badge.svg">
   </a>
-  <a href="https://codecov.io/gh/Nikoro/system_date_time_format">
+  <a href="https://codecov.io/gh/Nikoro/system_date_time_format_hook">
     <img alt="Code Coverage" src="https://codecov.io/gh/Nikoro/system_date_time_format_hook/branch/main/graph/badge.svg">
   </a>
   <a href="https://opensource.org/licenses/MIT">
