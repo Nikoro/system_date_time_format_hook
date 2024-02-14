@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:system_date_time_format/system_date_time_format.dart';
 
+/// Creates [Patterns] that will be automatically synchronized with the device's system settings.
 Patterns useSystemDateTimeFormat(
     {@visibleForTesting SystemDateTimeFormat? format}) {
   return use(_SystemDateTimeFormatHook(format: format));
