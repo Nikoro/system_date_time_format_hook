@@ -1,3 +1,9 @@
+## 1.2.1
+
+- Updated dependencies
+- Matched version numbers with [`system_date_time_format`](https://pub.dev/packages/system_date_time_format) plugin
+- [CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
+
 ## 1.2.0
 
 [CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
