@@ -1,3 +1,8 @@
+## 1.2.2
+
+- Updated dependencies
+- [CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
+
 ## 1.2.1
 
 - Updated dependencies
