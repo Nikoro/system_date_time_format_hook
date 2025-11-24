@@ -1,28 +1,22 @@
 PODS:
   - Flutter (1.0.0)
-  - integration_test (0.0.1):
-    - Flutter
   - system_date_time_format (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - integration_test (from `.symlinks/plugins/integration_test/ios`)
   - system_date_time_format (from `.symlinks/plugins/system_date_time_format/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  integration_test:
-    :path: ".symlinks/plugins/integration_test/ios"
   system_date_time_format:
     :path: ".symlinks/plugins/system_date_time_format/ios"
 
 SPEC CHECKSUMS:
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
-  system_date_time_format: b7d92d72dea1a17adc3b14b8c467ae6bc6181c00
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  system_date_time_format: d2ff596217fdbb6f04710511579fd3c36c6db598
 
-PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
