@@ -3,21 +3,17 @@ description: "Demonstrates how to use the system_date_time_format_hook plugin."
 publish_to: 'none'
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: ^3.2.0
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_hooks: ^0.20.5
+  flutter_hooks: ^0.21.3
   system_date_time_format_hook:
     path: ../
 
 dev_dependencies:
-  integration_test:
-    sdk: flutter
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
