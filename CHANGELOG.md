@@ -1,3 +1,10 @@
+## 1.3.1
+
+- Updated web setup documentation to use local asset path instead of CDN (from system_date_time_format v1.3.1+)
+- Updated example to use local asset path for web script instead of CDN link
+- Updated dependencies
+- [CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
+
 ## 1.3.0
 
 - Updated dependencies
