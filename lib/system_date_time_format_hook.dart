@@ -3,8 +3,9 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:system_date_time_format/system_date_time_format.dart';
 
 /// Creates [Patterns] that will be automatically synchronized with the device's system settings.
-Patterns useSystemDateTimeFormat(
-    {@visibleForTesting SystemDateTimeFormat? format}) {
+Patterns useSystemDateTimeFormat({
+  @visibleForTesting SystemDateTimeFormat? format,
+}) {
   return use(_SystemDateTimeFormatHook(format: format));
 }
 
@@ -23,6 +24,7 @@ class _SystemDateTimeFormatHookState
     with WidgetsBindingObserver {
   late final SystemDateTimeFormat systemDateTimeFormat;
   Patterns patterns = const Patterns();
+  bool _isDisposed = false;
 
   @override
   void initHook() {
@@ -34,6 +36,7 @@ class _SystemDateTimeFormatHookState
 
   @override
   void dispose() {
+    _isDisposed = true;
     WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
@@ -50,8 +53,8 @@ class _SystemDateTimeFormatHookState
 
   Future<void> _updatePatternsIfNeeded() async {
     final patterns = await systemDateTimeFormat.getAllPatterns();
-    if (this.patterns != patterns) {
-      setState(() => this.patterns = patterns);
-    }
+    if (_isDisposed || this.patterns == patterns) return;
+
+    setState(() => this.patterns = patterns);
   }
 }

@@ -1,3 +1,11 @@
+## 1.5.1
+
+- Fixed the hook throwing an unhandled exception when the widget was disposed while a pending date/time format request was still in flight
+- **BREAKING**: Updated minimum Dart SDK to 3.12.0 (from 3.2.0) and Flutter SDK to 3.44.0 (from 3.16.0), matching `system_date_time_format` v1.5.1
+- Updated dependencies
+- Matched version numbers with [`system_date_time_format`](https://pub.dev/packages/system_date_time_format) plugin
+- [CHANGELOG](https://github.com/Nikoro/system_date_time_format/blob/main/CHANGELOG.md)
+
 ## 1.3.1
 
 - Updated web setup documentation to use local asset path instead of CDN (from system_date_time_format v1.3.1+)
